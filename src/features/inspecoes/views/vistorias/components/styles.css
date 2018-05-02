@@ -1,0 +1,23 @@
+.step-dropper {
+    padding: 0px !important;
+}
+
+.step-dropper .content {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.step-dropper .content .dropdown {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.step-dropper .content .dropdown .text {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+}

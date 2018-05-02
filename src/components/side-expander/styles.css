@@ -1,0 +1,31 @@
+.side-expander {
+    display: block;
+    width: 100%;
+}
+
+.side-expander .item {
+    display: block;
+    width: 100%;
+}
+
+.side-expander .item .display {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.side-expander .item .display.active {
+    font-weight: bold;
+}
+
+.side-expander .item .display:hover {
+    font-weight: bold;
+}
+
+.side-expander .item .hide {
+    display: none;
+}
+
+.side-expander .item .sub {
+    padding: 3px;
+    padding-left: 20px;
+}

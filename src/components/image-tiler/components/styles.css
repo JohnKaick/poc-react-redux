@@ -1,0 +1,41 @@
+.tiled-block .details {
+    position: absolute;
+    display: block;
+    flex: 0 0 auto;
+    padding: 20px;
+    font-size: 32;
+    color: white;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3); 
+}
+
+.tiled-block:hover .details {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.tiled-block .details div {
+    display: inline-block;
+    line-height: 1.15
+}
+
+.tiled-image {
+    position: relative;
+    display: block;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    padding: 0;
+    background: rgba(0, 0, 0, .05);
+    background-position: center center;
+    height: 240px;
+    min-height: 100%;
+    width: 100%;
+}
+
+.tiled-image-hide {
+    visibility: hidden;
+    opacity: 0
+}
+

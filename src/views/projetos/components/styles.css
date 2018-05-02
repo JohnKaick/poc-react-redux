@@ -1,0 +1,37 @@
+.row-block {
+    position: relative;
+    display: block;
+    flex: 0 0 auto;
+    padding: 0px;
+    background: rgba(0, 0, 0, .05);
+    background-position: center center;
+    height: 240px;
+    margin-bottom: 5px;
+    transition: height ease 1.0s;
+    cursor: pointer;
+}
+
+.row-block .details {
+    position: absolute;
+    display: block;
+    flex: 0 0 auto;
+    padding: 20px;
+    font-size: 32;
+    color: white;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3); 
+}
+
+.row-block .details div {
+    display: inline-block;
+    line-height: 1.15
+}
+
+.row-block:hover .details {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.row-block:hover {
+    height: 300px;
+}

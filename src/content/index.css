@@ -1,0 +1,57 @@
+body {
+  background-color: #F0F8FF;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+#root>div {
+  height: 100%;
+}
+
+
+
+.menu-limitado-header {
+  margin: 0px !important;
+  padding-top: 16px !important;
+  padding-bottom: 17px !important;
+  border-top: solid 1px lightgrey;
+  border-bottom: solid 1px lightgrey;
+}
+
+.menu-limitado {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.submenu-limitado {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  max-height: 300px  !important;
+  overflow-y: auto  !important;
+  margin-top: 0px !important;
+}
+
+.submenu-limitado.x .item {
+  max-height: 220px  !important;
+}
+
+.submenu-limitado.xx .item {
+  max-height: 350px  !important;
+}
+
+.react-datepicker .react-datepicker-container .react-datepicker-top {
+  background: #2d84c6 !important;
+  background-color: #2d84c6 !important;
+  border-top: 1px solid #2d84c6 !important;
+  border-left: 1px solid #2d84c6 !important;
+  border-right: 1px solid #2d84c6 !important;
+}
+
+.react-datepicker-component .react-datepicker-input input,
+.react-datepicker .react-datepicker-container .react-datepicker-body .react-datepicker-row .react-datepicker-picker.current {
+  font-weight: 500 !important;
+}

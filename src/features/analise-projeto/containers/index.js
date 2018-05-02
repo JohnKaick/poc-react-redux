@@ -1,0 +1,8 @@
+export { default as DialogAnalise } from './dialog-analise'
+export { default as DialogAnaliseExcluir } from './dialog-analise-excluir'
+export { default as DialogArquivo } from './dialog-arquivo'
+export { default as DialogItemCadastrar } from './dialog-item-cadastrar'
+export { default as DialogItemCadastrarAssunto } from './dialog-item-cadastrar-assunto'
+export { default as DialogParticipante } from './dialog-participante'
+export { default as DialogReplica } from './dialog-replica'
+export { default as Submenu } from './submenu'

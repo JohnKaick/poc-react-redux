@@ -1,0 +1,1 @@
+export { default as Disciplina } from './disciplina'
